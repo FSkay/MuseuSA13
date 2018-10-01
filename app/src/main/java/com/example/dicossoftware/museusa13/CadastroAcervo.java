@@ -19,7 +19,7 @@ public class CadastroAcervo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cadastro_acervo);
 
-            b = this.openOrCreateDatabase("baseMuseu", Context.MODE_PRIVATE, null);
+          /*  b = this.openOrCreateDatabase("baseMuseu", Context.MODE_PRIVATE, null);
 
             b.execSQL("CREATE table if not exists  artefatos (id_mom INTEGER PRIMARY KEY AUTOINCREMENT, int varchar(60))");
 
@@ -51,7 +51,7 @@ public class CadastroAcervo extends AppCompatActivity {
 
             }
 
-            c.close();
+            c.close();*/
         }
 
 
